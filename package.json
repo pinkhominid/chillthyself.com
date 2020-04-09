@@ -1,0 +1,24 @@
+{
+  "name": "chillthyself.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkhominid/chillthyself.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinkhominid/chillthyself.com/issues"
+  },
+  "homepage": "https://github.com/pinkhominid/chillthyself.com#readme",
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
+}
