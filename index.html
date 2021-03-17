@@ -13,18 +13,28 @@
         justify-content: center;
       }
       #logo {
-        max-height: 100vh;
-        max-width: 100vw;
+        max-width: 50vw;
       }
       @media (prefers-color-scheme: dark) {
         body {
           background-color: rgb(38, 38, 38);
         }
       }
+      #frame-rapper {
+        border-radius: 30px;
+        overflow: hidden;
+      }
+      iframe {
+        display: block;
+        border: 0;
+      }
     </style>
   </head>
   <body>
     <!-- <p>A chill mix for these weird times</p> -->
     <img id="logo" src="chillthyself.png" alt="Chill thyself">
+    <section id=frame-rapper>
+      <iframe src="https://jam.systems/iq4tfb" allow="microphone *;" width="420" height="660"></iframe>
+    </section>
   </body>
 </html>
