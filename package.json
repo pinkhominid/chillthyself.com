@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/pinkhominid/chillthyself.com#readme",
   "devDependencies": {
-    "http-server": "^0.12.1"
+    "http-server": "^0.12.3"
   }
 }
